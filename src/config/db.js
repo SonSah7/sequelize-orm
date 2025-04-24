@@ -13,8 +13,8 @@ const sequelize = new Sequelize({
   define: {
     timestamps: false,
     underscored: true,
-    paranoid: true,
-  },
+    paranoid: true
+  }
 });
 
 export default sequelize;
